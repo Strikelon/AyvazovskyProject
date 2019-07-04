@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="linear_layout_margin">16dp</dimen>
+
+    <!--recycler_item-->
+    <dimen name="card_view_layout_margin">8dp</dimen>
+    <dimen name="card_corner_radius">4dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="card_image_width">150dp</dimen>
+    <dimen name="card_image_height">100dp</dimen>
+    <dimen name="card_image_layout_padding">16dp</dimen>
+
+    <!--detailFragment-->
+    <dimen name="picture_detail_text_margin_bottom">16dp</dimen>
+    <dimen name="picture_detail_text_size">16sp</dimen>
+
+</resources>

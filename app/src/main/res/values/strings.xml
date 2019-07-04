@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">AyvazovskyProject</string>
+
+    <!--PictureDetailFragment-->
+    <string name="pictureName">Название:</string>
+    <string name="picturePlace">Местоположение:</string>
+    <string name="pictureSize">Размер:</string>
+    <string name="pictureYear">Год:</string>
+
 </resources>
