@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+                name="picture"
+                type="com.strikalov.ayvazovskyproject.model.entity.Picture" />
+
+        <variable name="viewModel"
+                  type="com.strikalov.ayvazovskyproject.viewmodel.MainViewModel"/>
+    </data>
+
+    <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_view_layout_margin"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            app:cardElevation="@dimen/card_elevation">
+
+        <ImageView
+                android:layout_width="@dimen/card_image_width"
+                android:layout_height="@dimen/card_image_height"
+                android:padding="@dimen/card_image_layout_padding"
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                app:imageUrl="@{picture.url}"
+                android:onClick="@{() -> viewModel.onPictureClick(picture.id)}"
+        />
+
+    </android.support.v7.widget.CardView>
+
+</layout>
